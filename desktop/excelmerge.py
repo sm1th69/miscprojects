@@ -4,7 +4,7 @@ import os
 #set directory
 os.chdir("/users/keatondavis/desktop/test")
 #list files 
-excel_names = ["/users/keatondavis/desktop/test/test1.xlsx", "/users/keatondavis/desktop/test/test1.xlsx"]
+excel_names = ["/users/name/desktop/test/test1.xlsx", "/users/name/desktop/test/test1.xlsx"]
 excels = [pd.ExcelFile(name) for name in excel_names]
 
 #convert xlsx to dataframe
